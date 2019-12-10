@@ -11,10 +11,14 @@ body {
 	padding: 0;
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
-	}
+
+
+
+  }
 
   .col-6{
     background-color: #805026;
+
   }
 
 /*Adds content after the row class*/
@@ -22,6 +26,9 @@ body {
   content: "";
   clear: both;
   display: block;
+}
+.slide-image{
+  width: 100%
 }
 
 /*Apply styling to a group of classes*/
@@ -55,6 +62,7 @@ html {
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
+.col-3b {width: 33%;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
